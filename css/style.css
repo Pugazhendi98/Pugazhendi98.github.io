@@ -161,7 +161,8 @@ html {
   font-family:'Courier New', Courier,;
   text-indent: 25px;
   position: relative;
- 
+ padding-left: 10px;
+ padding-right: 10px;
   
  
 }
