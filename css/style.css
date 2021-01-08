@@ -1,0 +1,235 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.menu{
+    background-color:navajowhite;
+   animation: fade 3s;
+  
+}
+
+.fadee
+{
+  opacity: 0;
+}
+.bottom{
+  
+  opacity: 0;
+  bottom: -40px;
+  position: relative;
+}
+
+.left{
+  
+  opacity: 0;
+  left: -100px;
+  position: relative;
+}
+
+.right{
+  
+  opacity: 0;
+  right: -100px;
+  position: relative;
+}
+.menu >  ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+.menu >  ul > li{
+    display: inline-block;
+    
+}
+
+.menu >  ul > li > a{
+    color :peru;
+    font-size: 22px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+    height: 55px;
+    display: block;
+    text-decoration: none;
+    position: relative;
+    animation: fadeleft 3s
+}
+.menu >  ul > li > a:hover{
+    background-color:peru;
+    color:navajowhite;
+}
+
+
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: 100%;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+  }
+
+
+
+
+  .text > a {
+    
+    color:white;
+    font-size: 16px;
+    font-style: italic;
+    font-family: sans-serif;
+    padding: 20px;
+    text-decoration: none;
+  }
+.photo{
+    border-radius: 50%;
+    
+    position: relative;
+    
+    
+    align-items: center;
+    
+    
+}
+@keyframes fadeleft {
+    0%   { left:-150px; top:0px; opacity: 0;}
+   
+    100% { left:0px; top:0px; opacity: 1;}
+  }
+  @keyframes faderight {
+    0%   { right:-150px; top:0px; opacity: 0;}
+   
+    100% { right:0px; top:0px; opacity: 1;}
+  }
+
+  .progress {
+    height: 5px;
+    width: 0%;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    animation: progress 1s linear;
+  }
+  @keyframes progress {
+    to {
+      background-color: rgb(235, 20, 255);
+      width: 100%;
+    }
+  }
+.intro{
+   
+    padding-top: 20%;
+    font-size: 30px;
+    text-align: left;
+    color:white;
+    animation-name: fade;
+    animation-duration: 3s;
+    align-items: center;
+    
+    font-family: 'Courier New', Courier,;
+   
+   
+}
+
+.stj{
+  font-size: 30px;
+    text-align: right;
+    color:purple;
+    animation-name: fade;
+    animation-duration: 3s;
+    align-items: center;
+    font-style: italic;
+    font-family: 'Courier New', Courier,;
+}
+
+.about{
+  color: gray;
+  font-size: 20px;
+  font-family:'Courier New', Courier,;
+  text-indent: 25px;
+  position: relative;
+  animation: animatebottom 3s;
+  
+ 
+}
+.a{
+  font-style: italic;
+  color:gray;
+  font-size: 20px;
+  font-family:'Courier New', Courier,;
+}
+.a:hover{
+  color:purple;
+}
+.card{
+  box-shadow: 7px 7px 5px 0px rgba(90, 90, 90, 0.75);
+  height: 500px;
+  padding: 5px;
+  position: relative;
+ 
+ 
+  
+   
+}
+@keyframes animatebottom { 
+  from{ bottom:-100px; opacity:0 } 
+  to{ bottom:0px; opacity:1 }
+}
+
+.card-header{
+  text-align:center;
+  color: purple;
+  background-color:wheat;
+  font-family:'Times New Roman';
+  font-size: 25px;
+  font-weight: bold;
+}
+.card-body{
+  align-items: center;
+  text-align: center;
+}
+.card-footer{
+  text-align:left;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px; 
+  font-size: 18px;
+  color: purple;
+  background-color:wheat;
+  
+}
+.card-text{
+  padding-left: 20px;
+  
+}
+
+
+.programl{
+  text-align: center;
+  padding: 7px;
+  
+}
+
+
+ .img{
+  box-shadow: 7px 7px 5px 0px rgba(90, 90, 90, 0.75);
+}
+.proj{
+  text-align: justify;
+  padding-left: 50px;
+ 
+}
+.t{
+  text-align: center;
+}
