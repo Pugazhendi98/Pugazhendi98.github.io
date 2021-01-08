@@ -129,10 +129,12 @@ html {
   }
 .intro{
    
-    padding-top: 20%;
+    padding-top: 70px;
     font-size: 30px;
+    width: auto;
     text-align: left;
     color:white;
+    font-size-adjust: 0.58;
     animation-name: fade;
     animation-duration: 3s;
     align-items: center;
@@ -159,7 +161,7 @@ html {
   font-family:'Courier New', Courier,;
   text-indent: 25px;
   position: relative;
-  animation: animatebottom 3s;
+ 
   
  
 }
@@ -228,6 +230,7 @@ html {
 .proj{
   text-align: justify;
   padding-left: 50px;
+  padding-right: 50px;
  
 }
 .t{
