@@ -15,7 +15,7 @@
            var element_bottom_position = (element_top_position + element_height);
           //  If the object is completely visible in the window, fade it it  bottom_of_window >= bottom_of_object
           //&&     (element_bottom_position >= window_top_position)     
-            if( element_top_position<=(window_top_position + window_height*0.62)  && element_top_position>=(window_top_position) || element_bottom_position<window_bottom_position){
+            if( element_top_position<=(window_top_position + window_height*0.62)  && element_top_position>=(window_top_position) ){
                 
              // console.log();
              $(this).animate({'bottom':'0','opacity': '1'},1000);
@@ -74,12 +74,10 @@
       var element_bottom_position = (element_top_position + element_height);
      //  If the object is completely visible in the window, fade it it  bottom_of_window >= bottom_of_object
      //&&     (element_bottom_position >= window_top_position)     
-<<<<<<< HEAD
-       if( element_top_position<=(window_top_position + window_height*0.60)  && element_top_position>=(window_top_position + window_height*0.25) || element_bottom_position<window_bottom_position){
-=======
-       if( element_top_position<=(window_top_position + window_height*0.60)  && element_top_position>=(window_top_position + window_height*0)){
->>>>>>> c887e12ef9c9e58f67b7147f0279f62ad50a6dd6
-           
+
+       if( element_top_position<=(window_top_position + window_height*0.65)  && element_top_position>=(window_top_position + window_height*0.25) || element_bottom_position<window_bottom_position){
+
+      
         // console.log();
         $(this).animate({'opacity': '1'},1000);
        }
