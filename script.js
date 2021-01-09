@@ -15,7 +15,7 @@
            var element_bottom_position = (element_top_position + element_height);
           //  If the object is completely visible in the window, fade it it  bottom_of_window >= bottom_of_object
           //&&     (element_bottom_position >= window_top_position)     
-            if( element_top_position<=(window_top_position + window_height*0.62)  && element_top_position>=(window_top_position)){
+            if( element_top_position<=(window_top_position + window_height*0.62)  && element_top_position>=(window_top_position) || element_bottom_position<window_bottom_position){
                 
              // console.log();
              $(this).animate({'bottom':'0','opacity': '1'},1000);
