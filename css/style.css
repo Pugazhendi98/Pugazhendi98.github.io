@@ -32,29 +32,29 @@ html {
   right: -100px;
   position: relative;
 }
-.menu >  ul{
+.menu > .row-sm > ul{
     list-style-type: none;
     margin: 0px;
     padding: 0px;
 }
-.menu >  ul > li{
+.menu > .row-sm > ul > li{
     display: inline-block;
     
 }
 
-.menu >  ul > li > a{
-    color :#990033;
-    font-size: 22px;
+.menu > .row-sm > ul > li > a{
+    color :greenyellow;
+    font-size: 3vh;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    padding: 10px;
-    height: 55px;
+    padding: 5px;
+    height: 40px;
     display: block;
     text-decoration: none;
     position: relative;
     animation: fadeleft 3s
 }
-.menu >  ul > li > a:hover{
-    background-color:#990033;
+.menu > .row-sm > ul > li > a:hover{
+    background-color:greenyellow;
     color:white;
 }
 
@@ -93,7 +93,7 @@ html {
   }
 .photo{
     border-radius: 50%;
-    
+   
     position: relative;
     
     
@@ -129,9 +129,9 @@ html {
   }
 .intro{
    
-    padding-top: 70px;
-    font-size: 30px;
-    width: auto;
+    padding-top: 50px;
+    
+    font-size: 3.8vmin;
     text-align: left;
     color:white;
     font-size-adjust: 0.58;
