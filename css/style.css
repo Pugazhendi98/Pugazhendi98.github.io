@@ -227,7 +227,8 @@ html {
 
 
  .img{
-  box-shadow: 7px 7px 5px 0px rgba(90, 90, 90, 0.75);
+  
+  filter: drop-shadow(5px 5px 5px rgba(90, 90, 90, 0.75));
 }
 .proj{
   text-align: justify;

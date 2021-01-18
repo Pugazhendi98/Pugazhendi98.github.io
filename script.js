@@ -1,4 +1,7 @@
     /* Every time the window is scrolled ... */
+    $(document).ready(function() {
+      
+   
     $(window).scroll( function(){
        
       // var bottom_of_window = $(window).scrollTop() + $(window).height();
@@ -94,3 +97,4 @@
            $("#imgmodal").modal('show');
       });
   });
+});
